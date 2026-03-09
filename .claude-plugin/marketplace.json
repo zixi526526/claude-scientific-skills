@@ -1,17 +1,17 @@
 {
-    "name":  "claude-scientific-skills",
+    "name":  "zixi-scientific-skills-BioInfo",
     "owner":  {
-                  "name":  "K-Dense Inc.",
-                  "email":  "contact@k-dense.ai"
+                  "name":  "zixi526526",
+                  "email":  "zixi526526@github.com"
               },
     "metadata":  {
-                     "description":  "Claude scientific skills from K-Dense Inc",
+                     "description":  "Zixi's customized scientific skills for bioinformatics research",
                      "version":  "2.27.0"
                  },
     "plugins":  [
                     {
                         "name":  "scientific-skills",
-                        "description":  "Collection of scientific skills",
+                        "description":  "Customized collection of scientific & bioinformatics skills",
                         "source":  "./",
                         "strict":  false,
                         "skills":  [
