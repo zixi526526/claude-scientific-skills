@@ -1,15 +1,17 @@
-# Claude Scientific Skills
+# Claude Scientific Skills (Curated Fork)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-[![Skills](https://img.shields.io/badge/Skills-170-brightgreen.svg)](#whats-included)
-[![Databases](https://img.shields.io/badge/Databases-250%2B-orange.svg)](#whats-included)
+[![Skills](https://img.shields.io/badge/Skills-25-brightgreen.svg)](#whats-included)
+[![Curated](https://img.shields.io/badge/Curated-Literature%20%7C%20scRNA--seq%20%7C%20Docs-blue.svg)](#whats-included)
 [![Agent Skills](https://img.shields.io/badge/Standard-Agent_Skills-blueviolet.svg)](https://agentskills.io/)
 [![Works with](https://img.shields.io/badge/Works_with-Cursor_|_Claude_Code_|_Codex-blue.svg)](#getting-started)
 [![X](https://img.shields.io/badge/Follow_on_X-%40k__dense__ai-000000?logo=x)](https://x.com/k_dense_ai)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-K--Dense_Inc.-0A66C2?logo=linkedin)](https://www.linkedin.com/company/k-dense-inc)
 [![YouTube](https://img.shields.io/badge/YouTube-K--Dense_Inc.-FF0000?logo=youtube)](https://www.youtube.com/@K-Dense-Inc)
 
-A comprehensive collection of **170+ ready-to-use scientific and research skills** (now including cancer genomics, drug-target binding, molecular dynamics, RNA velocity, geospatial science, time series forecasting, FRED economic data, and more) for any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, created by [K-Dense](https://k-dense.ai). Works with **Cursor, Claude Code, Codex, and more**. Transform your AI agent into a research assistant capable of executing complex multi-step scientific workflows across biology, chemistry, medicine, and beyond.
+A curated fork of [K-Dense](https://k-dense.ai)'s Claude Scientific Skills repository for the open [Agent Skills](https://agentskills.io/) standard. This fork keeps a focused set of **25 skills** for literature review, single-cell analysis, gene/database lookup, scientific writing, visualization, and document processing across **Cursor, Claude Code, Codex, and more**.
+
+Some retained folders, including `scientific-skills/docx`, `scientific-skills/pdf`, `scientific-skills/pptx`, and `scientific-skills/xlsx`, include their own folder-specific licenses that still apply.
 
 <p align="center">
   <a href="https://k-dense.ai">
