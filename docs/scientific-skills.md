@@ -1,6 +1,6 @@
 # Scientific Skills
 
-> Note: This document is a broad upstream/reference catalog. The curated fork in this repository currently ships 31 local skills, and `.claude-plugin/marketplace.json` is the source of truth for the shipped set.
+> Note: This document is a broad upstream/reference catalog. The curated fork in this repository currently ships 32 local skills, and `.claude-plugin/marketplace.json` is the source of truth for the shipped set.
 
 ## Scientific Databases
 

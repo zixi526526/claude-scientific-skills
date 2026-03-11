@@ -1,7 +1,7 @@
 ﻿# Claude Scientific Skills (Curated Fork)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-[![Skills](https://img.shields.io/badge/Skills-31-brightgreen.svg)](#whats-included)
+[![Skills](https://img.shields.io/badge/Skills-32-brightgreen.svg)](#whats-included)
 [![Curated](https://img.shields.io/badge/Curated-Literature%20%7C%20scRNA--seq%20%7C%20Docs-blue.svg)](#whats-included)
 [![Agent Skills](https://img.shields.io/badge/Standard-Agent_Skills-blueviolet.svg)](https://agentskills.io/)
 [![Works with](https://img.shields.io/badge/Works_with-Cursor_|_Claude_Code_|_Codex-blue.svg)](#getting-started)
@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-K--Dense_Inc.-0A66C2?logo=linkedin)](https://www.linkedin.com/company/k-dense-inc)
 [![YouTube](https://img.shields.io/badge/YouTube-K--Dense_Inc.-FF0000?logo=youtube)](https://www.youtube.com/@K-Dense-Inc)
 
-A curated fork of [K-Dense](https://k-dense.ai)'s Claude Scientific Skills repository for the open [Agent Skills](https://agentskills.io/) standard. This fork keeps a focused set of **31 skills** for literature review, database and web search, single-cell analysis, scientific writing, visualization, and document processing across **Cursor, Claude Code, Codex, and more**.
+A curated fork of [K-Dense](https://k-dense.ai)'s Claude Scientific Skills repository for the open [Agent Skills](https://agentskills.io/) standard. This fork keeps a focused set of **32 skills** for literature review, database and web search, single-cell analysis, scientific writing, visualization, document processing, and precision-medicine knowledge graph lookup across **Cursor, Claude Code, Codex, and more**.
 
 Some retained folders, including `scientific-skills/docx`, `scientific-skills/pdf`, `scientific-skills/pptx`, and `scientific-skills/xlsx`, include their own folder-specific licenses that still apply.
 
@@ -52,10 +52,10 @@ These skills enable your AI agent to seamlessly work with specialized scientific
 
 ## 棣冩憹 What's Included
 
-This repository provides **31 curated skills** organized into the following areas:
+This repository provides **32 curated skills** organized into the following areas:
 
 - **9 literature, search, and citation skills** - BGPT Paper Search, bioRxiv, OpenAlex, PubMed, Google Scholar MCP, Perplexity Search, Research Lookup, Citation Management, and Literature Review
-- **10 bioinformatics and single-cell skills** - AnnData, BioServices, Cellxgene Census, GEO, gget, NCBI Gene, Scanpy, scVelo, scvi-tools, and STRING
+- **11 bioinformatics and single-cell skills** - AnnData, BioServices, Cellxgene Census, GEO, gget, NCBI Gene, PrimeKG, Scanpy, scVelo, scvi-tools, and STRING
 - **7 writing, review, and presentation skills** - Humanizer, Peer Review, Scientific Brainstorming, Scientific Critical Thinking, Scientific Visualization, Scientific Writing, and Venue Templates
 - **5 document processing skills** - DOCX, MarkItDown, PDF, PPTX, and XLSX
 
@@ -96,7 +96,7 @@ Each skill includes:
 - **Multi-Step Workflows** - Execute complex pipelines with a single prompt
 
 ### 棣冨箚 **Comprehensive Coverage**
-- **31 Curated Skills** - Focused coverage for literature review, database lookup, web-grounded research, single-cell analysis, scientific writing, visualization, and document workflows
+- **32 Curated Skills** - Focused coverage for literature review, database lookup, web-grounded research, single-cell analysis, scientific writing, visualization, document workflows, and precision-medicine knowledge graph queries
 - **Database & Search Coverage** - PubMed, GEO, OpenAlex, bioRxiv, Google Scholar MCP, Perplexity Search, Research Lookup, and multi-database access through BioServices and gget
 - **Executable Workflows** - Scanpy QC, database query helpers, citation utilities, venue templates, and document-processing scripts for common research tasks
 
@@ -343,7 +343,7 @@ If so, **[K-Dense Web](https://k-dense.ai)** was built for you. It is the full A
 
 | Feature | This Repo | K-Dense Web |
 |---------|-----------|-------------|
-| Scientific Skills | 31 skills | **200+ skills** (exclusive access) |
+| Scientific Skills | 32 skills | **200+ skills** (exclusive access) |
 | Setup | Manual installation | **Zero setup, works instantly** |
 | Compute | Your machine | **Cloud GPUs and HPC included** |
 | Workflows | Prompt and code | **End-to-end research pipelines** |
@@ -406,7 +406,7 @@ If so, **[K-Dense Web](https://k-dense.ai)** was built for you. It is the full A
 
 ## 棣冩憥 Available Skills
 
-This curated fork currently ships **31 skills**. The list below matches the local `scientific-skills/` directory and `.claude-plugin/marketplace.json`.
+This curated fork currently ships **32 skills**. The list below matches the local `scientific-skills/` directory and `.claude-plugin/marketplace.json`.
 
 ### Skill Categories
 
@@ -421,13 +421,14 @@ This curated fork currently ships **31 skills**. The list below matches the loca
 - `pubmed-database`
 - `research-lookup`
 
-#### 棣冃?**Bioinformatics & Single-Cell** (10 skills)
+#### 棣冃?**Bioinformatics & Single-Cell** (11 skills)
 - `anndata`
 - `bioservices`
 - `cellxgene-census`
 - `gene-database`
 - `geo-database`
 - `gget`
+- `primekg`
 - `scanpy`
 - `scvelo`
 - `scvi-tools`

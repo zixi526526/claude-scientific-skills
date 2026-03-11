@@ -1,18 +1,41 @@
 import pandas as pd
 import os
-import json
 from typing import List, Dict, Optional, Union
+from pathlib import Path
 
-# Default data path
-DATA_PATH = "/mnt/c/Users/eamon/Documents/Data/PrimeKG/kg.csv"
+
+def _candidate_paths() -> List[Path]:
+    """Return candidate locations for the PrimeKG CSV."""
+    env_path = os.getenv("PRIMEKG_DATA_PATH")
+    script_dir = Path(__file__).resolve().parent
+    candidates = [
+        Path(env_path) if env_path else None,
+        script_dir.parent / "data" / "kg.csv",
+        Path("/mnt/c/Users/eamon/Documents/Data/PrimeKG/kg.csv"),
+    ]
+    return [path for path in candidates if path is not None]
+
+
+def get_data_path() -> Path:
+    """Resolve the first available PrimeKG CSV path."""
+    for path in _candidate_paths():
+        if path.exists():
+            return path
+
+    checked = "\n".join(f"- {path}" for path in _candidate_paths())
+    raise FileNotFoundError(
+        "PrimeKG data not found. Set PRIMEKG_DATA_PATH or place kg.csv in "
+        "scientific-skills/primekg/data/kg.csv.\nChecked:\n"
+        f"{checked}"
+    )
+
 
 def _load_kg():
     """Internal helper to load the KG efficiently."""
-    if not os.path.exists(DATA_PATH):
-        raise FileNotFoundError(f"PrimeKG data not found at {DATA_PATH}. Please ensure the file is downloaded.")
+    data_path = get_data_path()
     # For very large files, we might want to use a database or specialized graph library.
     # For now, we'll use pandas for simplicity but with low_memory=True.
-    return pd.read_csv(DATA_PATH, low_memory=True)
+    return pd.read_csv(data_path, low_memory=True)
 
 def search_nodes(name_query: str, node_type: Optional[str] = None) -> List[Dict]:
     """
