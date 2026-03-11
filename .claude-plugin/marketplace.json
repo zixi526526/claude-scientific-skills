@@ -6,7 +6,7 @@
               },
     "metadata":  {
                      "description":  "Zixi's customized scientific skills for bioinformatics research",
-                     "version":  "2.27.0"
+                     "version":  "2.28.0"
                  },
     "plugins":  [
                     {
@@ -16,11 +16,17 @@
                         "strict":  false,
                         "skills":  [
                                        "./scientific-skills/geo-database",
+                                       "./scientific-skills/openalex-database",
+                                       "./scientific-skills/biorxiv-database",
                                        "./scientific-skills/pubmed-database",
+                                       "./scientific-skills/bgpt-paper-search",
                                        "./scientific-skills/citation-management",
+                                       "./scientific-skills/google-scholar-mcp",
                                        "./scientific-skills/literature-review",
+                                       "./scientific-skills/perplexity-search",
                                        "./scientific-skills/research-lookup",
                                        "./scientific-skills/scientific-writing",
+                                       "./scientific-skills/humanizer",
                                        "./scientific-skills/scientific-visualization",
                                        "./scientific-skills/scientific-critical-thinking",
                                        "./scientific-skills/peer-review",

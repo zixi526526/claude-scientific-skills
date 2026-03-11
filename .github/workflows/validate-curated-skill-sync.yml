@@ -1,0 +1,35 @@
+name: Validate Curated Skill Sync
+
+on:
+  pull_request:
+    paths:
+      - "scientific-skills/**"
+      - ".claude-plugin/marketplace.json"
+      - "README.md"
+      - "scripts/validate_curated_skill_sync.py"
+      - ".github/workflows/validate-curated-skill-sync.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "scientific-skills/**"
+      - ".claude-plugin/marketplace.json"
+      - "README.md"
+      - "scripts/validate_curated_skill_sync.py"
+      - ".github/workflows/validate-curated-skill-sync.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate curated skill sync
+        run: python scripts/validate_curated_skill_sync.py
