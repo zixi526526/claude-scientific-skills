@@ -18,39 +18,39 @@ Some retained folders, including `scientific-skills/docx`, `scientific-skills/pd
     <img src="docs/k-dense-web.gif" alt="K-Dense Web Demo" width="800"/>
   </a>
   <br/>
-  <em>The demo above shows <a href="https://k-dense.ai">K-Dense Web</a> 閳?the hosted platform built on top of these skills. Claude Scientific Skills is the open-source skill collection; K-Dense Web is the full AI co-scientist platform with more power and zero setup.</em>
+  <em>The demo above shows <a href="https://k-dense.ai">K-Dense Web</a>, the hosted platform built on top of these skills. Claude Scientific Skills is the open-source skill collection; K-Dense Web is the full AI co-scientist platform with more power and zero setup.</em>
 </p>
 
 ---
 
 These skills enable your AI agent to seamlessly work with specialized scientific libraries, databases, and tools across multiple scientific domains. While the agent can use any Python package or API on its own, these explicitly defined skills provide curated documentation and examples that make it significantly stronger and more reliable for the workflows below:
-- 棣冃?Bioinformatics & Genomics - Sequence analysis, single-cell RNA-seq, gene regulatory networks, variant annotation, phylogenetic analysis
-- 棣冃?Cheminformatics & Drug Discovery - Molecular property prediction, virtual screening, ADMET analysis, molecular docking, lead optimization
-- 棣冩暕 Proteomics & Mass Spectrometry - LC-MS/MS processing, peptide identification, spectral matching, protein quantification
-- 棣冨綖 Clinical Research & Precision Medicine - Clinical trials, pharmacogenomics, variant interpretation, drug safety, clinical decision support, treatment planning
-- 棣冾潵 Healthcare AI & Clinical ML - EHR analysis, physiological signal processing, medical imaging, clinical prediction models
-- 棣冩煠閿?Medical Imaging & Digital Pathology - DICOM processing, whole slide image analysis, computational pathology, radiology workflows
-- 棣冾樆 Machine Learning & AI - Deep learning, reinforcement learning, time series analysis, model interpretability, Bayesian methods
-- 棣冩暛 Materials Science & Chemistry - Crystal structure analysis, phase diagrams, metabolic modeling, computational chemistry
-- 棣冨 Physics & Astronomy - Astronomical data analysis, coordinate transformations, cosmological calculations, symbolic mathematics, physics computations
-- 閳挎瑱绗?Engineering & Simulation - Discrete-event simulation, multi-objective optimization, metabolic engineering, systems modeling, process optimization
-- 棣冩惓 Data Analysis & Visualization - Statistical analysis, network analysis, time series, publication-quality figures, large-scale data processing, EDA
-- 棣冨 Geospatial Science & Remote Sensing - Satellite imagery processing, GIS analysis, spatial statistics, terrain analysis, machine learning for Earth observation
-- 棣冃?Laboratory Automation - Liquid handling protocols, lab equipment control, workflow automation, LIMS integration
-- 棣冩憥 Scientific Communication - Literature review, peer review, scientific writing, document processing, posters, slides, schematics, citation management
-- 棣冩暕 Multi-omics & Systems Biology - Multi-modal data integration, pathway analysis, network biology, systems-level insights
-- 棣冃?Protein Engineering & Design - Protein language models, structure prediction, sequence design, function annotation
-- 棣冨笚 Research Methodology - Hypothesis generation, scientific brainstorming, critical thinking, grant writing, scholar evaluation
+- Bioinformatics & Genomics - Sequence analysis, single-cell RNA-seq, gene regulatory networks, variant annotation, phylogenetic analysis
+- Cheminformatics & Drug Discovery - Molecular property prediction, virtual screening, ADMET analysis, molecular docking, lead optimization
+- Proteomics & Mass Spectrometry - LC-MS/MS processing, peptide identification, spectral matching, protein quantification
+- Clinical Research & Precision Medicine - Clinical trials, pharmacogenomics, variant interpretation, drug safety, clinical decision support, treatment planning
+- Healthcare AI & Clinical ML - EHR analysis, physiological signal processing, medical imaging, clinical prediction models
+- Medical Imaging & Digital Pathology - DICOM processing, whole slide image analysis, computational pathology, radiology workflows
+- Machine Learning & AI - Deep learning, reinforcement learning, time series analysis, model interpretability, Bayesian methods
+- Materials Science & Chemistry - Crystal structure analysis, phase diagrams, metabolic modeling, computational chemistry
+- Physics & Astronomy - Astronomical data analysis, coordinate transformations, cosmological calculations, symbolic mathematics, physics computations
+- Engineering & Simulation - Discrete-event simulation, multi-objective optimization, metabolic engineering, systems modeling, process optimization
+- Data Analysis & Visualization - Statistical analysis, network analysis, time series, publication-quality figures, large-scale data processing, EDA
+- Geospatial Science & Remote Sensing - Satellite imagery processing, GIS analysis, spatial statistics, terrain analysis, machine learning for Earth observation
+- Laboratory Automation - Liquid handling protocols, lab equipment control, workflow automation, LIMS integration
+- Scientific Communication - Literature review, peer review, scientific writing, document processing, posters, slides, schematics, citation management
+- Multi-omics & Systems Biology - Multi-modal data integration, pathway analysis, network biology, systems-level insights
+- Protein Engineering & Design - Protein language models, structure prediction, sequence design, function annotation
+- Research Methodology - Hypothesis generation, scientific brainstorming, critical thinking, grant writing, scholar evaluation
 
 **Transform your AI coding agent into an 'AI Scientist' on your desktop!**
 
-> 鐚?**If you find this repository useful**, please consider giving it a star! It helps others discover these tools and encourages us to continue maintaining and expanding this collection.
+> **If you find this repository useful**, please consider giving it a star! It helps others discover these tools and encourages us to continue maintaining and expanding this collection.
 
-> 棣冨箑 **New to Claude Scientific Skills?** Watch our [Getting Started with Claude Scientific Skills](https://youtu.be/ZxbnDaD_FVg) video for a quick walkthrough.
+> **New to Claude Scientific Skills?** Watch our [Getting Started with Claude Scientific Skills](https://youtu.be/ZxbnDaD_FVg) video for a quick walkthrough.
 
 ---
 
-## 棣冩憹 What's Included
+## What's Included
 
 This repository provides **32 curated skills** organized into the following areas:
 
@@ -60,20 +60,20 @@ This repository provides **32 curated skills** organized into the following area
 - **5 document processing skills** - DOCX, MarkItDown, PDF, PPTX, and XLSX
 
 Each skill includes:
-- 閴?Comprehensive documentation (`SKILL.md`)
-- 閴?Practical code examples
-- 閴?Use cases and best practices
-- 閴?Integration guides
-- 閴?Reference materials
+- Comprehensive documentation (`SKILL.md`)
+- Practical code examples
+- Use cases and best practices
+- Integration guides
+- Reference materials
 
 ---
 
-## 棣冩惖 Table of Contents
+## Table of Contents
 
 - [What's Included](#whats-included)
 - [Why Use This?](#why-use-this)
 - [Getting Started](#getting-started)
-- [Support Open Source](#-support-the-open-source-community)
+- [Support Open Source](#support-the-open-source-community)
 - [Prerequisites](#prerequisites)
 - [Quick Examples](#quick-examples)
 - [Use Cases](#use-cases)
@@ -88,31 +88,31 @@ Each skill includes:
 
 ---
 
-## 棣冩畬 Why Use This?
+## Why Use This?
 
-### 閳?**Accelerate Your Research**
+### Accelerate Your Research
 - **Save Days of Work** - Skip API documentation research and integration setup
 - **Production-Ready Code** - Tested, validated examples following scientific best practices
 - **Multi-Step Workflows** - Execute complex pipelines with a single prompt
 
-### 棣冨箚 **Comprehensive Coverage**
+### Comprehensive Coverage
 - **32 Curated Skills** - Focused coverage for literature review, database lookup, web-grounded research, single-cell analysis, scientific writing, visualization, document workflows, and precision-medicine knowledge graph queries
 - **Database & Search Coverage** - PubMed, GEO, OpenAlex, bioRxiv, Google Scholar MCP, Perplexity Search, Research Lookup, and multi-database access through BioServices and gget
 - **Executable Workflows** - Scanpy QC, database query helpers, citation utilities, venue templates, and document-processing scripts for common research tasks
 
-### 棣冩暋 **Easy Integration**
+### Easy Integration
 - **Simple Setup** - Copy skills to your skills directory and start working
 - **Automatic Discovery** - Your agent automatically finds and uses relevant skills
 - **Well Documented** - Each skill includes examples, use cases, and best practices
 
-### 棣冨皞 **Maintained & Supported**
+### Maintained & Supported
 - **Regular Updates** - Continuously maintained and expanded by K-Dense team
 - **Community Driven** - Open source with active community contributions
 - **Enterprise Ready** - Commercial support available for advanced needs
 
 ---
 
-## 棣冨箚 Getting Started
+## Getting Started
 
 Claude Scientific Skills follows the open [Agent Skills](https://agentskills.io/) standard. Simply copy the skill folders into your skills directory and your AI agent will automatically discover and use them.
 
@@ -126,7 +126,7 @@ git clone https://github.com/K-Dense-AI/claude-scientific-skills.git
 
 Copy the individual skill folders from `scientific-skills/` to one of the supported skill directories below. You can install skills **globally** (available across all projects) or **per-project** (available only in that project).
 
-**Global installation** (recommended 閳?skills available everywhere):
+**Global installation** (recommended: skills available everywhere):
 
 | Tool | Directory |
 |------|-----------|
@@ -146,22 +146,22 @@ Copy the individual skill folders from `scientific-skills/` to one of the suppor
 
 > **Note:** Cursor also reads from `.claude/skills/`, `.codex/skills/`, and `.gemini/skills/` directories, and vice versa, so skills are cross-compatible between tools.
 
-**Example 閳?global install for Cursor:**
+**Example: global install for Cursor:**
 ```bash
 cp -r claude-scientific-skills/scientific-skills/* ~/.cursor/skills/
 ```
 
-**Example 閳?global install for Claude Code:**
+**Example: global install for Claude Code:**
 ```bash
 cp -r claude-scientific-skills/scientific-skills/* ~/.claude/skills/
 ```
 
-**Example 閳?global install for Gemini CLI:**
+**Example: global install for Gemini CLI:**
 ```bash
 cp -r claude-scientific-skills/scientific-skills/* ~/.gemini/skills/
 ```
 
-**Example 閳?project-level install:**
+**Example: project-level install:**
 ```bash
 mkdir -p .cursor/skills
 cp -r /path/to/claude-scientific-skills/scientific-skills/* .cursor/skills/
@@ -171,22 +171,22 @@ cp -r /path/to/claude-scientific-skills/scientific-skills/* .cursor/skills/
 
 ---
 
-## 閴傘倧绗?Support the Open Source Community
+## Support the Open Source Community
 
 Claude Scientific Skills is powered by **50+ incredible open source projects** maintained by dedicated developers and research communities worldwide. Projects like Biopython, Scanpy, RDKit, scikit-learn, PyTorch Lightning, and many others form the foundation of these skills.
 
 **If you find value in this repository, please consider supporting the projects that make it possible:**
 
-- 鐚?**Star their repositories** on GitHub
-- 棣冩尩 **Sponsor maintainers** via GitHub Sponsors or NumFOCUS
-- 棣冩憫 **Cite projects** in your publications
-- 棣冩崌 **Contribute** code, docs, or bug reports
+- **Star their repositories** on GitHub
+- **Sponsor maintainers** via GitHub Sponsors or NumFOCUS
+- **Cite projects** in your publications
+- **Contribute** code, docs, or bug reports
 
-棣冩啝 **[View the full list of projects to support](docs/open-source-sponsors.md)**
+**[View the full list of projects to support](docs/open-source-sponsors.md)**
 
 ---
 
-## 閳挎瑱绗?Prerequisites
+## Prerequisites
 
 - **Python**: 3.9+ (3.12+ recommended for best compatibility)
 - **uv**: Python package manager (required for installing skill dependencies)
@@ -222,11 +222,11 @@ For more installation options and details, visit the [official uv documentation]
 
 ---
 
-## 棣冩寱 Quick Examples
+## Quick Examples
 
 Once you've installed the skills, you can ask your AI agent to execute complex multi-step scientific workflows. Here are some example prompts:
 
-### 棣冃?Drug Discovery Pipeline
+### Drug Discovery Pipeline
 **Goal**: Find novel EGFR inhibitors for lung cancer treatment
 
 **Prompt**:
@@ -243,7 +243,7 @@ mutations, and create visualizations and a comprehensive report.
 
 ---
 
-### 棣冩暕 Single-Cell RNA-seq Analysis
+### Single-Cell RNA-seq Analysis
 **Goal**: Comprehensive analysis of 10X Genomics data with public data integration
 
 **Prompt**:
@@ -260,7 +260,7 @@ and identify therapeutic targets with Open Targets.
 
 ---
 
-### 棣冃?Multi-Omics Biomarker Discovery
+### Multi-Omics Biomarker Discovery
 **Goal**: Integrate RNA-seq, proteomics, and metabolomics to predict patient outcomes
 
 **Prompt**:
@@ -277,7 +277,7 @@ and search ClinicalTrials.gov for relevant trials.
 
 ---
 
-### 棣冨箚 Virtual Screening Campaign
+### Virtual Screening Campaign
 **Goal**: Discover allosteric modulators for protein-protein interactions
 
 **Prompt**:
@@ -294,7 +294,7 @@ MedChem/molfeat.
 
 ---
 
-### 棣冨綖 Clinical Variant Interpretation
+### Clinical Variant Interpretation
 **Goal**: Analyze VCF file for hereditary cancer risk assessment
 
 **Prompt**:
@@ -311,7 +311,7 @@ clinical report with document processing tools, and find matching trials on Clin
 
 ---
 
-### 棣冨 Systems Biology Network Analysis
+### Systems Biology Network Analysis
 **Goal**: Analyze gene regulatory networks from RNA-seq data
 
 **Prompt**:
@@ -326,11 +326,11 @@ networks, and search GEO for similar patterns.
 
 *Want end-to-end pipelines with shareable outputs and no setup? [Try K-Dense Web free.](https://k-dense.ai)*
 
-> 棣冩憠 **Want more examples?** Check out [docs/examples.md](docs/examples.md) for comprehensive workflow examples and detailed use cases across all scientific domains.
+> **Want more examples?** Check out [docs/examples.md](docs/examples.md) for comprehensive workflow examples and detailed use cases across all scientific domains.
 
 ---
 
-## 棣冩畬 Want to Skip the Setup and Just Do the Science?
+## Want to Skip the Setup and Just Do the Science?
 
 **Recognize any of these?**
 
@@ -353,7 +353,7 @@ If so, **[K-Dense Web](https://k-dense.ai)** was built for you. It is the full A
 > *"K-Dense Web took me from raw sequencing data to a draft figure in one afternoon. What used to take three days of environment setup and scripting now just works."*
 > **Computational biologist, drug discovery**
 
-> ### 棣冩尩 $50 in free credits, no credit card required
+> ### $50 in free credits, no credit card required
 > Start running real scientific workflows in minutes.
 >
 > **[Try K-Dense Web free](https://k-dense.ai)**
@@ -362,16 +362,16 @@ If so, **[K-Dense Web](https://k-dense.ai)** was built for you. It is the full A
 
 ---
 
-## 棣冩暕 Use Cases
+## Use Cases
 
-### 棣冃?Drug Discovery & Medicinal Chemistry
+### Drug Discovery & Medicinal Chemistry
 - **Virtual Screening**: Screen millions of compounds from PubChem/ZINC against protein targets
 - **Lead Optimization**: Analyze structure-activity relationships with RDKit, generate analogs with datamol
 - **ADMET Prediction**: Predict absorption, distribution, metabolism, excretion, and toxicity with DeepChem
 - **Molecular Docking**: Predict binding poses and affinities with DiffDock
 - **Bioactivity Mining**: Query ChEMBL for known inhibitors and analyze SAR patterns
 
-### 棣冃?Bioinformatics & Genomics
+### Bioinformatics & Genomics
 - **Sequence Analysis**: Process DNA/RNA/protein sequences with BioPython and pysam
 - **Single-Cell Analysis**: Analyze 10X Genomics data with Scanpy, identify cell types, infer GRNs with Arboreto
 - **Variant Annotation**: Annotate VCF files with Ensembl VEP, query ClinVar for pathogenicity
@@ -379,38 +379,38 @@ If so, **[K-Dense Web](https://k-dense.ai)** was built for you. It is the full A
 - **Gene Discovery**: Query NCBI Gene, UniProt, and Ensembl for comprehensive gene information
 - **Network Analysis**: Identify protein-protein interactions via STRING, map to pathways (KEGG, Reactome)
 
-### 棣冨綖 Clinical Research & Precision Medicine
+### Clinical Research & Precision Medicine
 - **Clinical Trials**: Search ClinicalTrials.gov for relevant studies, analyze eligibility criteria
 - **Variant Interpretation**: Annotate variants with ClinVar, COSMIC, and ClinPGx for pharmacogenomics
 - **Drug Safety**: Query FDA databases for adverse events, drug interactions, and recalls
 - **Precision Therapeutics**: Match patient variants to targeted therapies and clinical trials
 
-### 棣冩暕 Multi-Omics & Systems Biology
+### Multi-Omics & Systems Biology
 - **Multi-Omics Integration**: Combine RNA-seq, proteomics, and metabolomics data
 - **Pathway Analysis**: Enrich differentially expressed genes in KEGG/Reactome pathways
 - **Network Biology**: Reconstruct gene regulatory networks, identify hub genes
 - **Biomarker Discovery**: Integrate multi-omics layers to predict patient outcomes
 
-### 棣冩惓 Data Analysis & Visualization
+### Data Analysis & Visualization
 - **Statistical Analysis**: Perform hypothesis testing, power analysis, and experimental design
 - **Publication Figures**: Create publication-quality visualizations with matplotlib and seaborn
 - **Network Visualization**: Visualize biological networks with NetworkX
 - **Report Generation**: Generate comprehensive PDF reports with Document Skills
 
-### 棣冃?Laboratory Automation
+### Laboratory Automation
 - **Protocol Design**: Create Opentrons protocols for automated liquid handling
 - **LIMS Integration**: Integrate with Benchling and LabArchives for data management
 - **Workflow Automation**: Automate multi-step laboratory workflows
 
 ---
 
-## 棣冩憥 Available Skills
+## Available Skills
 
 This curated fork currently ships **32 skills**. The list below matches the local `scientific-skills/` directory and `.claude-plugin/marketplace.json`.
 
 ### Skill Categories
 
-#### 棣冩憥 **Literature, Search & Citation** (9 skills)
+#### Literature, Search & Citation (9 skills)
 - `bgpt-paper-search`
 - `biorxiv-database`
 - `citation-management`
@@ -421,7 +421,7 @@ This curated fork currently ships **32 skills**. The list below matches the loca
 - `pubmed-database`
 - `research-lookup`
 
-#### 棣冃?**Bioinformatics & Single-Cell** (11 skills)
+#### Bioinformatics & Single-Cell (11 skills)
 - `anndata`
 - `bioservices`
 - `cellxgene-census`
@@ -434,7 +434,7 @@ This curated fork currently ships **32 skills**. The list below matches the loca
 - `scvi-tools`
 - `string-database`
 
-#### 棣冩憹 **Writing, Review & Visualization** (7 skills)
+#### Writing, Review & Visualization (7 skills)
 - `humanizer`
 - `peer-review`
 - `scientific-brainstorming`
@@ -443,7 +443,7 @@ This curated fork currently ships **32 skills**. The list below matches the loca
 - `scientific-writing`
 - `venue-templates`
 
-#### 棣冩惓 **Document Processing** (5 skills)
+#### Document Processing (5 skills)
 - `docx`
 - `markitdown`
 - `pdf`
@@ -452,23 +452,23 @@ This curated fork currently ships **32 skills**. The list below matches the loca
 
 ---
 
-## 棣冾檪 Contributing
+## Contributing
 
 We welcome contributions to expand and improve this scientific skills repository!
 
 ### Ways to Contribute
 
-閴?**Add New Skills**
+**Add New Skills**
 - Create skills for additional scientific packages or databases
 - Add integrations for scientific platforms and tools
 
-棣冩憥 **Improve Existing Skills**
+**Improve Existing Skills**
 - Enhance documentation with more examples and use cases
 - Add new workflows and reference materials
 - Improve code examples and scripts
 - Fix bugs or update outdated information
 
-棣冩偘 **Report Issues**
+**Report Issues**
 - Submit bug reports with detailed reproduction steps
 - Suggest improvements or new features
 
@@ -485,13 +485,13 @@ We welcome contributions to expand and improve this scientific skills repository
 
 ### Contribution Guidelines
 
-閴?**Adhere to the [Agent Skills Specification](https://agentskills.io/specification)** 閳?Every skill must follow the official spec (valid `SKILL.md` frontmatter, naming conventions, directory structure)  
-閴?Maintain consistency with existing skill documentation format  
-閴?Ensure all code examples are tested and functional  
-閴?Follow scientific best practices in examples and workflows  
-閴?Update relevant documentation when adding new capabilities  
-閴?Provide clear comments and docstrings in code  
-閴?Include references to official documentation
+- **Adhere to the [Agent Skills Specification](https://agentskills.io/specification)** - Every skill must follow the official spec (valid `SKILL.md` frontmatter, naming conventions, directory structure)
+- Maintain consistency with existing skill documentation format
+- Ensure all code examples are tested and functional
+- Follow scientific best practices in examples and workflows
+- Update relevant documentation when adding new capabilities
+- Provide clear comments and docstrings in code
+- Include references to official documentation
 
 ### Security Scanning
 
@@ -521,7 +521,7 @@ This project builds on 50+ amazing open source projects. If you find value in th
 
 ---
 
-## 棣冩暋 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -529,7 +529,7 @@ This project builds on 50+ amazing open source projects. If you find value in th
 - Verify skill folders are in the correct directory (see [Getting Started](#getting-started))
 - Each skill folder must contain a `SKILL.md` file
 - Restart your agent/IDE after copying skills
-- In Cursor, check Settings 閳?Rules to confirm skills are discovered
+- In Cursor, check `Settings > Rules` to confirm skills are discovered
 
 **Problem: Missing Python dependencies**
 - Solution: Check the specific `SKILL.md` file for required packages
@@ -549,18 +549,18 @@ This project builds on 50+ amazing open source projects. If you find value in th
 
 ---
 
-## 閴?FAQ
+## FAQ
 
 ### General Questions
 
 **Q: Is this free to use?**  
-A: Yes! This repository is MIT licensed. However, each individual skill has its own license specified in the `license` metadata field within its `SKILL.md` file閳ユ攤e sure to review and comply with those terms.
+A: Yes. This repository is MIT licensed. However, each individual skill has its own license specified in the `license` metadata field within its `SKILL.md` file, so be sure to review and comply with those terms.
 
 **Q: Why are all skills grouped together instead of separate packages?**  
-A: We believe good science in the age of AI is inherently interdisciplinary. Bundling all skills together makes it trivial for you (and your agent) to bridge across fields閳ユ攨.g., combining genomics, cheminformatics, clinical data, and machine learning in one workflow閳ユ敋ithout worrying about which individual skills to install or wire together.
+A: We believe good science in the age of AI is inherently interdisciplinary. Bundling all skills together makes it trivial for you (and your agent) to bridge across fields, for example combining genomics, cheminformatics, clinical data, and machine learning in one workflow, without worrying about which individual skills to install or wire together.
 
 **Q: Can I use this for commercial projects?**  
-A: The repository itself is MIT licensed, which allows commercial use. However, individual skills may have different licenses閳ユ攦heck the `license` field in each skill's `SKILL.md` file to ensure compliance with your intended use.
+A: The repository itself is MIT licensed, which allows commercial use. However, individual skills may have different licenses, so check the `license` field in each skill's `SKILL.md` file to ensure compliance with your intended use.
 
 **Q: Do all skills have the same license?**  
 A: No. Each skill has its own license specified in the `license` metadata field within its `SKILL.md` file. These licenses may differ from the repository's MIT License. Users are responsible for reviewing and adhering to the license terms of each individual skill they use.
@@ -592,33 +592,33 @@ A: Open an issue on GitHub with a clear description. For bugs, include reproduct
 
 ---
 
-## 棣冩尠 Support
+## Support
 
 Need help? Here's how to get support:
 
-- 棣冩憠 **Documentation**: Check the relevant `SKILL.md` and `references/` folders
-- 棣冩偘 **Bug Reports**: [Open an issue](https://github.com/K-Dense-AI/claude-scientific-skills/issues)
-- 棣冩寱 **Feature Requests**: [Submit a feature request](https://github.com/K-Dense-AI/claude-scientific-skills/issues/new)
-- 棣冩崍 **Enterprise Support**: Contact [K-Dense](https://k-dense.ai/) for commercial support
-- 棣冨 **Community**: [Join our Slack](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)
+- **Documentation**: Check the relevant `SKILL.md` and `references/` folders
+- **Bug Reports**: [Open an issue](https://github.com/K-Dense-AI/claude-scientific-skills/issues)
+- **Feature Requests**: [Submit a feature request](https://github.com/K-Dense-AI/claude-scientific-skills/issues/new)
+- **Enterprise Support**: Contact [K-Dense](https://k-dense.ai/) for commercial support
+- **Community**: [Join our Slack](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)
 
 ---
 
-## 棣冨竴 Join Our Community!
+## Join Our Community!
 
-**We'd love to have you join us!** 棣冩畬
+**We'd love to have you join us!**
 
 Connect with other scientists, researchers, and AI enthusiasts using AI agents for scientific computing. Share your discoveries, ask questions, get help with your projects, and collaborate with the community!
 
-棣冨皞 **[Join our Slack Community](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)** 棣冨皞
+**[Join our Slack Community](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)**
 
 Whether you're just getting started or you're a power user, our community is here to support you. We share tips, troubleshoot issues together, showcase cool projects, and discuss the latest developments in AI-powered scientific research.
 
-**See you there!** 棣冩尠
+**See you there!**
 
 ---
 
-## 棣冩憠 Citation
+## Citation
 
 If you use Claude Scientific Skills in your research or project, please cite it as:
 
@@ -653,23 +653,23 @@ We appreciate acknowledgment in publications, presentations, or projects that be
 
 ---
 
-## 棣冩惈 License
+## License
 
 This project is licensed under the **MIT License**.
 
-**Copyright 婕?2026 K-Dense Inc.** ([k-dense.ai](https://k-dense.ai/))
+**Copyright (c) 2026 K-Dense Inc.** ([k-dense.ai](https://k-dense.ai/))
 
 ### Key Points:
-- 閴?**Free for any use** (commercial and noncommercial)
-- 閴?**Open source** - modify, distribute, and use freely
-- 閴?**Permissive** - minimal restrictions on reuse
-- 閳跨媴绗?**No warranty** - provided "as is" without warranty of any kind
+- **Free for any use** (commercial and noncommercial)
+- **Open source** - modify, distribute, and use freely
+- **Permissive** - minimal restrictions on reuse
+- **No warranty** - provided "as is" without warranty of any kind
 
 See [LICENSE.md](LICENSE.md) for full terms.
 
 ### Individual Skill Licenses
 
-> 閳跨媴绗?**Important**: Each skill has its own license specified in the `license` metadata field within its `SKILL.md` file. These licenses may differ from the repository's MIT License and may include additional terms or restrictions. **Users are responsible for reviewing and adhering to the license terms of each individual skill they use.**
+> **Important**: Each skill has its own license specified in the `license` metadata field within its `SKILL.md` file. These licenses may differ from the repository's MIT License and may include additional terms or restrictions. **Users are responsible for reviewing and adhering to the license terms of each individual skill they use.**
 
 ## Star History
 
